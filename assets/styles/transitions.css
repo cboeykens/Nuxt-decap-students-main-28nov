@@ -1,0 +1,32 @@
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: fade(1rem);
+}
+
+.text {
+  display: inline-block;
+}
+
+.text span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.text span:hover {
+  transform: translateY(-10px); /* Move up on hover */
+}
+
+
+.hover-effect span {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-effect span:hover {
+  transform: translateY(-10px);
+}
