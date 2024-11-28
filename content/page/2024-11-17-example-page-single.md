@@ -62,6 +62,7 @@ promoted: "0"
   Y
 ::
 
+test
 
 <img src="/img/parelhi.svg" alt="My SVG" width="400" />
 
