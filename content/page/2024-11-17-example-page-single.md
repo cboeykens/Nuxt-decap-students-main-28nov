@@ -13,7 +13,7 @@ imagegallery:
   gallerytitle: ""
 thumbnail: /img/1.jpeg
 date: 2024-11-17T14:29:57.955Z
-numbernavigation: 7
+numbernavigation: 9
 layoutpage: layout1
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
   fringilla nunc id tellus commodo, et suscipit nisl mattis. Duis venenatis

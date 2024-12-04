@@ -119,10 +119,13 @@ onMounted(async () => {
             <div
               class="container opacity-80 animate-fade animate-once animate-delay-[100ms] text-white"
             >
+
+            <img src="public/img/portfoliowit.png" alt="Portfolio">
+
               <!-- Title -->
               <div class="relative">
                 <div class="blur-text text-6xl font-bold">{{ displayedTitle }}</div>
-                <div class="text-6xl font-bold border-r-4 border-white pr-2 animate-blink">
+                <div class="silkscreen-regular text-6xl font-bold border-r-4 border-white pr-2 animate-blink">
                   {{ displayedTitle }}
                 </div>
               </div>
