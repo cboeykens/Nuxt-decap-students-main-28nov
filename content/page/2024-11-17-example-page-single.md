@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Turntable / Vinyl Single Cover
+title: Turntable/Vinyl Cover
 tags:
   - Tag A
 imagegallery:

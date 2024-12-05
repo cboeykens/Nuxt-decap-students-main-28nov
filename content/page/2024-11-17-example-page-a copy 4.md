@@ -8,6 +8,8 @@ imagegallery:
   carouselgrid: carousel
   galleryImages:
     - /img/PSE.jpg
+    - /img/P400_all.jpg
+    - /img/eegheads.jpg
   gallerytitle: ""
 thumbnail: /img/typo_1.png
 date: 2024-11-17T14:29:57.955Z
