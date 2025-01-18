@@ -2,7 +2,8 @@
 layout: default
 title: Motion Quartet
 tags:
-  - Tag A
+  - vision science
+  - ambiguity
 imagegallery:
   showgallery: true
   carouselgrid: grid
@@ -33,9 +34,6 @@ promoted: "0"
   P
   ::
   ::span{}
-  P
-  ::
-  ::span{}
   A
   ::
   ::span{}
@@ -50,14 +48,14 @@ promoted: "0"
   ::span{}
   T
   ::
-  ::span{}
-  _
+  ::span{style="display:inline-block; width:20px;"}
+
   ::
   ::span{}
   M
   ::
   ::span{}
-  0
+  O
   ::
   ::span{}
   T
@@ -72,6 +70,7 @@ promoted: "0"
   N
   ::
 ::
+
 
 <!-- This is the code to embed the MQ gif in 
 ![My GIF](/path-to-your-gif.gif)

@@ -4,8 +4,9 @@
       v-for="post in folders"
       :key="post.slug" 
       >
-      <NuxtLink :to="post._path" >
-          <li class="">{{ post.title }}</li>
+      <NuxtLink :to="post._path">
+          <li class="text-sm">{{ post.title }}</li>
+
       </NuxtLink>
     </ul>
     <hr>

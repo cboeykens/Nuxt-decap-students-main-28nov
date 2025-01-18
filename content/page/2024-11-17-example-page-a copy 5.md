@@ -1,14 +1,16 @@
 ---
 layout: default
-title: phd thesis 
+title: PhD Thesis
+uitleg: b﻿labla
 tags:
-  - Tag A
+  - vision science
+  - ambiguity
 imagegallery:
   showgallery: true
   carouselgrid: carousel
-  galleryImages:
+  galleryImages: null
   gallerytitle: ""
-thumbnail: 
+thumbnail: /img/coverphd.jpg
 date: 2024-11-17T14:29:57.955Z
 numbernavigation: 2
 layoutpage: layout1

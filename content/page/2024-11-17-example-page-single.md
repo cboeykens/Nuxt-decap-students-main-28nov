@@ -2,7 +2,7 @@
 layout: default
 title: Turntable/Vinyl Cover
 tags:
-  - Tag A
+  - graphic design
 imagegallery:
   showgallery: true
   carouselgrid: grid
@@ -43,8 +43,8 @@ promoted: "0"
   ::span{}
   H
   ::
-  ::span{}
-  _
+  ::span{style="display:inline-block; width:20px;"}
+  
   ::
   ::span{}
   T

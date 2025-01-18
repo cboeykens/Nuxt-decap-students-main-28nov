@@ -1,8 +1,11 @@
 ---
 layout: default
 title: EEG study
+uitleg: t﻿est
 tags:
-  - Tag A
+  - neuroscience
+  - EEG
+  - vision science
 imagegallery:
   showgallery: true
   carouselgrid: carousel

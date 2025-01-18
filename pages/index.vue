@@ -114,32 +114,33 @@ onMounted(async () => {
         </div>
 
         <!-- Info section with typewriter effect -->
-        <div class="info flex flex-col items-center justify-center h-screen relative">
-          <div class="container text-left p-1 lg:p-20">
+        <div class="info flex flex-col items-center justify-start h-screen relative mt-0">
+          <div class="container text-left p-1 lg:p-10">
             <div
               class="container opacity-80 animate-fade animate-once animate-delay-[100ms] text-white"
             >
-
+            <!-- portfolio illustration -->
             <img src="public/img/portfoliowit.png" alt="Portfolio">
 
+
               <!-- Title -->
-              <div class="relative">
-                <div class="blur-text text-6xl font-bold">{{ displayedTitle }}</div>
-                <div class="silkscreen-regular text-6xl font-bold border-r-4 border-white pr-2 animate-blink">
+              <div class="relative mt-5">
+                <div class="blur-text silkscreen-regular text-7xl font-bold">{{ displayedTitle }}</div>
+                <div class="silkscreen-regular text-7xl font-bold border-r-4 border-white pr-2 animate-blink">
                   {{ displayedTitle }}
                 </div>
               </div>
 
               <!-- Subtitle -->
               <div class="relative mt-4">
-                <div class="blur-text text-2xl font-semibold">{{ displayedSubtitle }}</div>
-                <div class="text-2xl font-semibold">{{ displayedSubtitle }}</div>
+                <div class="blur-text silkscreen-regular text-3xl font-semibold">{{ displayedSubtitle }}</div>
+                <div class="silkscreen-regular text-3xl font-semibold">{{ displayedSubtitle }}</div>
               </div>
 
               <!-- Copyright -->
               <div class="relative mt-4">
                 <div class="blur-text font-light">{{ displayedCopyright }}</div>
-                <div class="font-light">{{ displayedCopyright }}</div>
+                <div class="font-light silkscreen-regular">{{ displayedCopyright }}</div>
               </div>
             </div>
           </div>

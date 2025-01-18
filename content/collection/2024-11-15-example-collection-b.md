@@ -11,7 +11,6 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
   Integer faucibus malesuada metus, pharetra molestie odio bibendum ut.
 thumbnail: /img/uve-sanchez-sILW2r09wOk-unsplash.jpg
 tags:
-  - Tag 1
 numbernavigation: 10
 layout: layout2
 mainincluded: true

@@ -2,7 +2,8 @@
 layout: default
 title: Logo Design Haddok
 tags:
-  - Tag A
+  - haddok gent
+  - logo design
 imagegallery:
   showgallery: true
   carouselgrid: carousel

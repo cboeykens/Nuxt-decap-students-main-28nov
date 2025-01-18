@@ -1,44 +1,44 @@
 /* Body element */
 body {
-        background-color: #fcf081;
-        color: rgba(100, 154, 255, 0.8);
+        background-color:#fff3c4;
+        color: rgb(98, 140, 255);
     }
     .light-mode body {
         background-color: #fff3c4;
-        color: #5f6fff;
+        color: rgb(98, 140, 255);
     }
-    .el-drawer {
-        background-color: rgba(255, 255, 255, 0.99);
+    .light-mode .el-drawer {
+        background-color: rgb(98, 140, 255);
+        color: #fff3c4;
     }
     /* */
+
     .dark-mode body {
-        background-color: #110044;
-        color: #ffecb5;
+        background-color: #3d4355;
+        color: #c8c8c8;
     }
     .dark-mode .backcolor{
-        background-color: #161715;
+        background-color: #3d4355;
+        color: #c8c8c8;
     }
     .dark-mode .el-drawer {
-        background-color: rgba(30, 30, 30, 0.98);
-    }
+        background-color: #bababa;
+        color: #d8ff85;
+    } 
+
     /* */
     .gray-mode body {
-        background-color: #e3e3e3;
-        color: #5f6fff;
+        background-color: #3d4355;
+        color: #c8c8c8;
     }
     .gray-mode .backcolor{
-        background-color: rgba(50, 64, 63, 0.98);
-        color: #FFFFFF;
+        background-color: #3d4355;
+        color: #c8c8c8;
     }
-    /*
+    
     .gray-mode .el-drawer {
-        background-color: #183ea5fa;
-        color: #FFFFFF;
-    }
-    */
-    .gray-mode .el-drawer {
-        background-color: rgba(91, 115, 101, 0.95);
-        color: #ebebeb;
+        background-color: #bababa;
+        color: #d8ff85;
     }
     
     /* Active link */

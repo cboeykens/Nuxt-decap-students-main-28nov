@@ -2,47 +2,14 @@
 <template>
   <div class="layout2">
     <ClientOnly>
-    <div class="relative max-h-screen overflow-hidden z-1">
-      <!-- Lazy loading applied to NuxtImg -->
-      <NuxtImg
-        v-if="data.thumbnail"
-        :src="data.thumbnail"
-        class="w-screen opacity-80 bg-cover"
-        :alt="`Thumbnail for ${data.title}`"
-        format="webp"
-        loading="lazy"
-        @load="imageLoaded = true"
-      />
-      
-      <div v-if="!imageLoaded" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-75">
-        <div class="spinner"></div>
-      </div>
-
-      <div
-        class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 animate-fade animate-once animate-delay-[500ms]"
-        v-if="imageLoaded"
-      >
-        <div class="container p-4">
-          <div>
-            <h1 class="text-white text-4xl md:text-6xl lg:text-8xl font-bold">{{ data.title }}</h1>
-            <h1 v-if="data.subtitle" class="text-white opacity-80 pt-3 text-xl md:text-2xl lg:text-3xl font-bold pb-10">{{ data.subtitle }}</h1>
-          </div>
-          
-          <div>
-            <p v-if="data.author" class="text-white opacity-80 text-xs font-bold">{{ data.author }}</p>
-            <p class="text-white text-xs opacity-50 hover:opacity-100">Last update: {{ formatDate(data.date) }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    
     <!-- Loading Drawer component -->
     <div class="absolute top-0 right-0 z-10 pr-5">
       <Drawer/> 
     </div>
 
     <!-- Main section -->
-    <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms]" v-if="imageLoaded">
+    <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms]">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
         <!-- First column -->
         <div>
@@ -50,14 +17,21 @@
           <h1 v-if="data.subtitle" class="opacity-80 text-xl md:text-2xl lg:text-3xl font-bold pb-10">{{ data.subtitle }}</h1>
           <p class="text-lg md:text-2xl lg:text-xl pb-5 font-bold">{{ data.description }}</p>
           
-          <div v-if="data.imagegallery && data.imagegallery.showgallery == true">
-            <ImageGallery/> 
-          </div>
+            <!-- New image element added -->
+          <img 
+            src="public/img/typo_1.jpg" 
+            alt="image of typo poster" 
+          />
+
+
         </div>
 
         <!-- Second column -->
-        <div>
+        <div class="mt-20">
           <ContentRenderer :value="data"/>
+          <div class="mt-5" v-if="data.imagegallery && data.imagegallery.showgallery == true">
+            <ImageGallery/> 
+          </div>
         </div>
       </div>
 
