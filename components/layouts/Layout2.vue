@@ -13,8 +13,8 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
         <!-- First column -->
         <div>
-          <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-3 font-bold">{{ data.title }}</h1>
-          <h1 v-if="data.subtitle" class="opacity-80 text-xl md:text-2xl lg:text-3xl font-bold pb-10">{{ data.subtitle }}</h1>
+          <h1 class="text-4xl md:text-4xl lg:text-6xl lg:mb-3 font-bold">{{ data.title }}</h1>
+          <h1 v-if="data.subtitle" class="opacity-80 text-xl md:text-2xl lg:text-3xl roboto-mono-regular pb-5">{{ data.subtitle }}</h1>
           <p class="text-lg md:text-2xl lg:text-xl pb-5 font-bold">{{ data.description }}</p>
           
           <!-- MAAK ANDERE LAYOUTS MEER GERICHT EN ANDERS TEGEN JURY image gallery hieronder kan verplaatst worden naar second column of second row !!! -->

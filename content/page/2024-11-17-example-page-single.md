@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Turntable/Vinyl Cover
+title: Vinyl Cover
 tags:
   - graphic design
+  - ambiguity
 imagegallery:
   showgallery: true
   carouselgrid: grid
@@ -15,13 +16,7 @@ thumbnail: /img/1.jpeg
 date: 2024-11-17T14:29:57.955Z
 numbernavigation: 9
 layoutpage: layout1
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-  fringilla nunc id tellus commodo, et suscipit nisl mattis. Duis venenatis
-  malesuada libero, tristique consectetur augue egestas pharetra. Cras sit amet
-  lacinia nulla, et accumsan nulla. Orci varius natoque penatibus et magnis dis
-  parturient montes, nascetur ridiculus mus. Vivamus  rhoncus bibendum orci, in
-  sodales risus ullamcorper in. Cras sed cursus arcu. Mauris pulvinar euismod
-  eros, vitae elementum massa mattis vitae. Duis viverra mattis vulputate.
+description: An illustrative turntable as a vinyl single record and cover design. 
 promoted: "0"
 ---
 ::div{.silkscreen-regular .text-5xl .text}
@@ -62,9 +57,8 @@ promoted: "0"
   Y
 ::
 
-<img src="/img/parelhi.svg" alt="My SVG" width="100" />
 
-::div{.max-w-4xl .text-justify}
+::div{.max-w-4xl .text-justify .mt-10}
 
 In the graphic design and illustration program at the part time art school of the academy of royal arts, Antwerp, I received the assignment to design a cover for a single vinyl record. 
 

@@ -1,7 +1,7 @@
 
 .masonry {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, 300px);;
   gap: 5px;
 }
 
@@ -63,11 +63,7 @@
   overflow: hidden;
 }
 
-@media (min-width: 1024px) {
-  .masonry {
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-  }
-}
+
 
 
 

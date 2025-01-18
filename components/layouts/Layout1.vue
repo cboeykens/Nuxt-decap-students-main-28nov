@@ -5,8 +5,8 @@
         <Drawer />
       </div>
       <div class="container">
-        <h1 class="silkscreen-bold text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold">{{ data.title }}</h1>
-        <p class="text-lg md:text-2xl lg:text-xl pb-10 font-bold">{{ data.description }}</p>
+        <h1 class="silkscreen-bold text-4xl md:text-4xl lg:text-6xl lg:mb-10 font-bold">{{ data.title }}</h1>
+        <p class="text-lg md:text-2xl lg:text-xl pb-5 roboto-mono-regular">{{ data.description }}</p>
 
         <ContentRenderer :value="data" />
 

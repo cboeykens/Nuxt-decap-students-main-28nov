@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PhD Thesis
-uitleg: b﻿labla
+uitleg: blabla
 tags:
   - vision science
   - ambiguity
@@ -12,7 +12,7 @@ imagegallery:
   gallerytitle: ""
 thumbnail: /img/coverphd.jpg
 date: 2024-11-17T14:29:57.955Z
-numbernavigation: 2
+numbernavigation: 3
 layoutpage: layout1
 description: Variability in multistable apparent motion perception
 promoted: "0"
