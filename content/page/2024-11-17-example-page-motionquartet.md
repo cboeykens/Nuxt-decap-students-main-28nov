@@ -82,4 +82,7 @@ Each of the plots in the data visualization below represents comparisons of the 
 
 The plots in this visualization can give us an indication of how stable vs. variable different observers are in their perception over time. The observers in the top plot have very little variability in their percepts over time, as almost all dots in the plot are repetitions (recurrence) of the previous percepts. The observers in the middle have medium variability, and the observers on the bottom have a high variability in their percepts over time, as can be seen in the amount of alternations between grey and yellow dots in the plots.
 
+The full manuscript is published in Journal of Vision and can be accessed <a href="https://jov.arvojournals.org/article.aspx?articleid=2778199" style="text-decoration: underline;">here</a>.
 ::
+
+
